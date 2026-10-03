@@ -322,7 +322,7 @@ export function ImportFileActionItem() {
 
 	return (
 		<TldrawUiMenuItem
-			id="about"
+			id="import-file"
 			label={importFileMsg}
 			readonlyOk
 			onSelect={async () => {
